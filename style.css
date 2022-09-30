@@ -1,0 +1,36 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Lato:wght@300&family=Sriracha&display=swap');
+@font-face {
+    font-family:'Big Poppa' ;
+    src: url('BigPoppaE-Regular.ttf') format('truetype');
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: rgb(50, 50, 50);
+    display: inline-block;
+    width: 100%;
+    
+}
+
+h1.letra1{
+    color: white;
+    font-family: 'Big Poppa';
+    display: inline;
+    margin-left: 5px;
+}
+
+h1.letra2{
+    color: white;
+    display: inline;
+    font-family: 'Lato';
+    font-size: 2em;
+}
+
+body{
+    
+}
