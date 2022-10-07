@@ -30,7 +30,8 @@ header{
     background-color: var(--color1);
     min-width: 400px;
     display: flex;
-    position: relative;
+    position: fixed;
+    width: 100%;
 }
 
 img{
