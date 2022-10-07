@@ -82,16 +82,20 @@ section>p{
 
 section.inicio{
     background-color: darkgray;
+    padding-top: 12em;
 }
 
 section.sobremim{
     background-color: white;
+    padding-top: 10em;
 }
 
 section.projetos{
     background-color: darkgray;
+    padding-top: 10em;
 }
 
 section.habilidades{
     background-color: white;
+    padding-top: 10em;
 }
