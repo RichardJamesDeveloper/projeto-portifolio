@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+:root{
+    --color1:rgba(24, 24, 24);
+    --color2:rgba(29, 29, 29);
+    --color3:rgba(255, 50, 0);
+
+    --font1:Arial, Helvetica, sans-serif;
+}
+
+@media screen and (min-width:768px){
+    span.material-symbols-outlined{
+        display: none;
+    }
+
+    header{
+        background-color: var(--color1);
+        width: 100%;
+        position: fixed;
+    }
+
+    nav{
+        display: block;
+    }
+
+    nav li{
+        display: inline-block;
+    }
+
+    
+
+}

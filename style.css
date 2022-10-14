@@ -1,70 +1,82 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Lato:wght@300&family=Sriracha&display=swap');
+
 @font-face {
     font-family:'Big Poppa' ;
     src: url('BigPoppaE-Regular.ttf') format('truetype');
-}
-
-*{
-    margin: 0px;
-    padding: 0px;
 }
 
 :root{
     --color1:rgba(24, 24, 24);
     --color2:rgba(29, 29, 29);
     --color3:rgba(255, 50, 0);
+    --color4:rgb(80, 80, 80);
 
     --font1:Arial, Helvetica, sans-serif;
-    --font2:'Big Poppa';
-    --font3:'Lato';
 }
 
-body{
-    background-color: var(--color2);
-    width: 100%;
-    height: 100%;
+*{
+    font-family: var(--font1);
+    margin: 0px;
+    padding: 0px;
 }
 
-header{
+body, html{
     background-color: var(--color1);
-    min-width: 400px;
-    width: 100%;
-    display: flex;
-    position: fixed;
 }
 
-
-header > p{
+header h1{
     color: var(--color3);
-    font-size: 18px;
+    padding: 10px;
     text-align: center;
-    font-weight: bold;
-    padding: 5vw;
+}
+
+span{
+    background-color: var(--color4);
+    width: 100vw;
+    color: white;
+    text-align: left;
+    padding: 10px;
+    display: block;
+    cursor: pointer;
+}
+
+span:hover{
+    background-color: white;
+    color: var(--color3);
 }
 
 nav{
-    background-color: var(--color1);
-    font-family: Arial, Helvetica, sans-serif;    
-    display: inline-block;
-    position: relative;
-    padding-top: 12px;
+    display: none;
 }
 
+nav ul{    
+    background-color: var(--color4);
+    list-style-type: none;
+}
 
-
-nav > a{
-    display: inline-block;
-    color: white;
-    text-decoration: none;
+nav a{
+    display: block;
     font-weight: bold;
-    padding: 5px;
-    border-radius: 1px;
-    transition-duration: 0.5s;
+    padding: 10px;
+    text-decoration: none;
+    text-align: left;
+    background-color: var(--color4);
+    color: white;    
+    border-top: 2px solid gray;
 }
 
-a:hover{
+nav a:hover{
+    background-color: gray;
     color: var(--color3);
+}
+
+main{
+    width: 90vw;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 section{
@@ -76,26 +88,22 @@ section{
     font-size: 3.5vw;
 }
 
-section>p{
+section p{
     padding-bottom: 2em;
 }
 
 section.inicio{
     background-color: darkgray;
-    padding-top: 12em;
 }
 
 section.sobremim{
     background-color: white;
-    padding-top: 10em;
 }
 
 section.projetos{
     background-color: darkgray;
-    padding-top: 10em;
 }
 
 section.habilidades{
     background-color: white;
-    padding-top: 10em;
 }
