@@ -20,13 +20,13 @@
     padding: 0px;
 }
 
-body, html{
+body{
     background-color: var(--color1);
 }
 
 header h1{
     color: var(--color3);
-    padding: 10px;
+    padding-top: 6px;
     text-align: center;
 }
 
@@ -35,9 +35,15 @@ span{
     width: 100vw;
     color: white;
     text-align: left;
-    padding: 10px;
+    padding-top: 1px;
     display: block;
     cursor: pointer;
+}
+
+.material-symbols-outlined{
+    font-size: 35px;
+    height: 40px;
+    padding-top: 4px;
 }
 
 span:hover{
@@ -71,25 +77,18 @@ nav a:hover{
 }
 
 main{
-    width: 90vw;
+    width: 100vw;
     background-color: white;
     margin: auto;
-    margin-top: 10px;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-section{
-    font-family: var(--fonte3);
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    line-height: 2em;
-    padding-left: 30px;
-    font-size: 3.5vw;
 }
 
 section p{
-    padding-bottom: 2em;
+    font-family: var(--fonte3);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    font-size: 3.5vw;
+    width: 100vw;
+    height: 100vh;
 }
 
 section.inicio{
