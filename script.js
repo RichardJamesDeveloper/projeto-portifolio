@@ -1,15 +1,10 @@
-function mudaTamanho(){
-    if(window.innerWidth >= 768){
-        itens.style.display = 'block'
-    } else{
-        itens.style.display = 'none'
-    }
+const bntMobile = document.getElementById('btn-mobile');
+
+function toggleMenu(event){
+    if(event.type === 'touchstart') event.preventDefault()
+    const nav = document.getElementById('nav');
+    nav.classList.toggle('active')
 }
 
-function clickMenu(){
-    if(itens.style.display == 'block'){
-        itens.style.display = 'none'
-    } else{
-        itens.style.display = 'block'
-    }
-}
+bntMobile.addEventListener('click', toggleMenu);
+bntMobile.addEventListener('touchstart', toggleMenu);

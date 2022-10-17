@@ -7,9 +7,10 @@
 
 :root{
     --color1:rgba(24, 24, 24);
-    --color2:rgba(29, 29, 29);
-    --color3:rgba(255, 50, 0);
-    --color4:rgb(80, 80, 80);
+    --color2:rgba(32, 32, 32);    
+    --color3:rgb(80, 80, 80);
+    --color4:rgba(255, 50, 0); /*HOVER*/
+    --color5:rgb(31, 31, 31);  /*HOVER*/
 
     --font1:Arial, Helvetica, sans-serif;
 }
@@ -20,74 +21,62 @@
     padding: 0px;
 }
 
-body{
-    background-color: var(--color1);
-}
-
-header h1{
-    color: var(--color3);
-    padding-top: 6px;
-    text-align: center;
-}
-
-span{
-    background-color: var(--color4);
+#header{
+    position: fixed;
     width: 100vw;
-    color: white;
-    text-align: left;
-    padding-top: 1px;
-    display: block;
-    cursor: pointer;
+    height: 70px;
+    padding: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--color2);
 }
 
-.material-symbols-outlined{
-    font-size: 35px;
-    height: 40px;
-    padding-top: 4px;
-}
-
-span:hover{
-    background-color: white;
-    color: var(--color3);
-}
-
-nav{
+#btn-mobile{
     display: none;
 }
 
-nav ul{    
-    background-color: var(--color4);
-    list-style-type: none;
+#logo{
+    font-size: 1.5rem;
+    font-weight:bold;
+    color: var(--color4);
 }
 
-nav a{
+#nav{
+    padding-right: 1rem;
+}
+
+#menu{
+    display: flex;
+    list-style: none;
+    gap: .5rem;
+}
+
+#menu a{
     display: block;
-    font-weight: bold;
-    padding: 10px;
-    text-decoration: none;
-    text-align: left;
-    background-color: var(--color4);
-    color: white;    
-    border-top: 2px solid gray;
+    padding: .2rem;
 }
 
-nav a:hover{
-    background-color: gray;
-    color: var(--color3);
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: var(--color5);
+    color: var(--color4);
 }
 
 main{
-    width: 100vw;
     background-color: white;
     margin: auto;
 }
 
 section p{
     font-family: var(--fonte3);
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 70px;
     font-size: 3.5vw;
-    width: 100vw;
     height: 100vh;
 }
 
