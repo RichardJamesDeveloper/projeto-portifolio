@@ -75,4 +75,42 @@
         transform: rotate(-135deg);
         top: -7px;
     }
+
+    /*HOME*/
+
+    .inicio .p1{
+        padding-top: 15%;
+        letter-spacing: 2px;
+        font-size: 1rem;
+    }
+    
+    .inicio .p2{
+        color: var(--color4);
+        font-size: 2rem;
+        font-weight:bold;
+        margin: 20px 0px 20px;
+    }
+    
+    .inicio .p3{
+        font-size: 1.5rem;
+    }
+
+    /*PROJETOS*/
+
+    .flex {
+        font-family: var(--fonte3);
+        padding-top: 70px;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 345px;
+        height: 275vh;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .flex > div{
+        flex: 1 1 200px;
+        margin: 10px;
+        max-height: 263px;  
+    }
 }
