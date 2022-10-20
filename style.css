@@ -128,7 +128,7 @@ a:hover{
 
 .flex{
     padding-top: 70px;    
-    display: flex;
+    display: flex;    
     flex-wrap: wrap;
     max-width: 800px;
     height: 100vh;
