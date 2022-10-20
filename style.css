@@ -13,6 +13,7 @@
     --color5:rgb(48, 48, 48);  /*HOVER*/
 
     --font1:Arial, Helvetica, sans-serif;
+    --font2:'Big Poppa';
 }
 
 *{
@@ -68,30 +69,80 @@ a:hover{
     color: var(--color4);
 }
 
-main{
-    background-color: white;
-    margin: auto;
+
+img{
+    max-width: 100%;
+    display: block;
 }
 
-section p{
+#Home{
+    background-image: linear-gradient(to right, var(--color3), white);
+}
+
+.inicio{    
+    display: block;
+    font-family: var(--fonte3);
+    padding-top: 70px;
+    height: 100vh;
+}
+
+.inicio .p1{
+    padding-top: 15%;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+}
+
+.sb{
+    color: white;
+}
+
+.inicio .p2{
+    color: var(--color4);
+    font-size: 5rem;
+    font-weight:bold;
+    margin: 20px 0px 20px;
+}
+
+.inicio .p3{
+    font-size: 2rem;
+}
+
+.sobremim{
+    background-color: white;
     font-family: var(--fonte3);
     padding-top: 70px;
     font-size: 3.5vw;
     height: 100vh;
 }
 
-section.inicio{
-    background-color: darkgray;
+#Projetos{
+    background-image: linear-gradient(to right, var(--color3), white);
 }
 
-section.sobremim{
+.projetos{
+    padding-top: 70px;
+}
+
+.flex{
+    font-family: var(--fonte3);
+    padding-top: 70px;    
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.flex > div{
+    flex: 1 1 200px;
+    margin: 10px;
+    max-height: 263px;  
+}
+
+.habilidades{
     background-color: white;
-}
-
-section.projetos{
-    background-color: darkgray;
-}
-
-section.habilidades{
-    background-color: white;
+    font-family: var(--fonte3);
+    padding-top: 70px;
+    font-size: 3.5vw;
+    height: 100vh;
 }
