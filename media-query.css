@@ -97,18 +97,18 @@
 
     /*PROJETOS*/
 
-    .flex {
+    .projetos-flex {
         font-family: var(--fonte3);
         padding-top: 70px;
         display: flex;
         flex-wrap: wrap;
-        max-width: 345px;
-        height: 280vh;
+        max-width: 270px;
+        height: 110vh;
         text-align: center;
         margin: 0 auto;
     }
     
-    .flex > div{
+    .projetos-flex > div{
         flex: 1 1 200px;
         margin: 10px;
         max-height: 263px;  

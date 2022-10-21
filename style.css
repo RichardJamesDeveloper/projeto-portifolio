@@ -126,16 +126,21 @@ a:hover{
     padding-top: 70px;
 }
 
-.flex{
-    padding-top: 70px;    
+.projetos-flex{
+    padding-top: 35px;   
+    padding-bottom: 10px; 
     display: flex;    
     flex-wrap: wrap;
     max-width: 800px;
-    height: 100vh;
     margin: 0 auto;
+    text-align: center;
 }
 
-.flex > div{
+.projetos-flex p{
+    padding: 2px;
+}
+
+.projetos-flex > div{
     flex: 1 1 200px;
     margin: 10px;
     max-height: 263px;  
