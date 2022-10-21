@@ -95,11 +95,21 @@
         font-size: 1.5rem;
     }
 
+    /*SOBRE MIM*/
+
+    .sobremim{
+        padding: 30px;
+    }
+
     /*PROJETOS*/
+
+    .projetos{
+        padding: 30px;
+    }
 
     .projetos-flex {
         font-family: var(--fonte3);
-        padding-top: 70px;
+        padding-top: 15px;
         display: flex;
         flex-wrap: wrap;
         max-width: 270px;
@@ -112,5 +122,11 @@
         flex: 1 1 200px;
         margin: 10px;
         max-height: 263px;  
+    }
+
+    /*HABILIDADES*/
+
+    .habilidades{
+        padding-top: 30px;
     }
 }
