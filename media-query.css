@@ -88,7 +88,6 @@
         color: var(--color4);
         font-size: 2rem;
         font-weight:bold;
-        margin: 20px 0px 20px;
     }
     
     .inicio .p3{
@@ -99,6 +98,15 @@
 
     .sobremim{
         padding: 30px;
+    }
+
+    #links{
+        text-align: center;
+    }
+
+    #links i:hover{
+        background-color: var(--color4);
+    
     }
 
     /*PROJETOS*/

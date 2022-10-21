@@ -76,6 +76,10 @@ a:hover{
     background-image: linear-gradient(to right, var(--color3), white);
 }
 
+#Home a{
+    color: black;
+}
+
 .sb{
     color: white;
 }
@@ -91,20 +95,50 @@ a:hover{
 
 .inicio .p1{
     padding-top: 15%;
+    padding-left: 1rem;
     letter-spacing: 2px;
     font-size: 1.5rem;
 }
 
 .inicio .p2{
     color: var(--color4);
+    padding-left: 1rem;
     font-size: 5rem;
     font-weight:bold;
-    margin: 20px 0px 20px;
 }
 
 .inicio .p3{
+    padding-left: 1rem;
     font-size: 2rem;
 }
+
+#nav2{
+    padding-top: 70px;
+}
+
+#links{    
+    padding-top: 30px;
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    padding: 1rem;
+}
+
+#links a{
+    text-decoration: none;
+    display: block;
+}
+
+#links a:hover{
+    cursor: pointer;
+    background-color: rgba(128, 128, 128, 0.11);
+
+}
+
+#links span:hover{
+    color: var(--color4);
+}
+
 
 /*SOBRE MIM*/
 
