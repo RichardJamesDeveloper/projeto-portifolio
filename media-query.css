@@ -80,18 +80,17 @@
 
     .inicio .p1{
         padding-top: 15%;
-        letter-spacing: 2px;
-        font-size: 1rem;
+        font-size: .9rem;
     }
     
     .inicio .p2{
         color: var(--color4);
-        font-size: 2rem;
+        font-size: 1.8rem;
         font-weight:bold;
     }
     
     .inicio .p3{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     /*SOBRE MIM*/

@@ -3,6 +3,9 @@
 @font-face {
     font-family:'Big Poppa' ;
     src: url('BigPoppaE-Regular.ttf') format('truetype');
+
+    font-family: 'Special Elite';
+    src: url(SpecialElite-Regular.ttf) format('truetype');
 }
 
 :root{
@@ -14,6 +17,7 @@
 
     --font1:Arial, Helvetica, sans-serif;
     --font2:'Big Poppa';
+    --font3:'Special Elite'
 }
 
 *{
@@ -88,7 +92,6 @@ a:hover{
 
 .inicio{    
     display: block;
-    font-family: var(--fonte3);
     padding-top: 70px;
     height: 100vh;
 }
@@ -109,6 +112,7 @@ a:hover{
 
 .inicio .p3{
     padding-left: 1rem;
+    letter-spacing: 2px;
     font-size: 2rem;
 }
 
