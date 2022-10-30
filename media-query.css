@@ -103,6 +103,7 @@
 
     .sobremim{
         padding: 30px;
+        padding-top: 70px;
     }
 
     #links{
@@ -118,6 +119,7 @@
 
     .projetos{
         padding: 30px;
+        padding-top: 70px;
     }
 
     .projetos-flex {
@@ -141,5 +143,6 @@
 
     .habilidades{
         padding-top: 30px;
+        padding-top: 70px;
     }
 }
