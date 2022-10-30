@@ -78,6 +78,7 @@
 
     /*HOME*/
 
+    
     .inicio .p1{
         padding-top: 15%;
         font-size: .9rem;
@@ -91,6 +92,11 @@
     
     .inicio .p3{
         font-size: 1.2rem;
+    }
+
+    .inicio .p1 .p2 .p3{
+        transition-timing-function: ease ;
+        transition-duration: 2s;
     }
 
     /*SOBRE MIM*/
