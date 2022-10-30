@@ -93,8 +93,7 @@ a:hover{
 .inicio{    
     display: block;
     padding-top: 70px;
-    height: 100vh;
-    animation: fadeIn 2s linear;
+    height: 100vh;    
 }
 
 .inicio .p1{
@@ -102,19 +101,22 @@ a:hover{
     padding-left: 1rem;
     letter-spacing: 2px;
     font-size: 1.5rem;
+    animation: fadeIn 3.3s linear;
 }
 
 .inicio .p2{
     color: var(--color4);
     padding-left: 1rem;
     font-size: 5rem;
-    font-weight:bold;    
+    font-weight:bold;  
+    animation: fadeIn 3.6s linear;  
 }
 
 .inicio .p3{
     padding-left: 1rem;
     letter-spacing: 2px;
     font-size: 2rem;
+    animation: fadeIn 3.9s linear;
 }
 
 @keyframes fadeIn{
